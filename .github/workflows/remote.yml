@@ -1,0 +1,9 @@
+name: local_call
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: jmassardo/action_test/.github/workflows/reusable.yml@main
