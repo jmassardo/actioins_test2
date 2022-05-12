@@ -1,4 +1,4 @@
-name: local_call
+name: remote_call
 
 on:
   push:
